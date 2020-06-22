@@ -11,7 +11,7 @@ public class WriteThread extends Thread{
     private PrintWriter writer;
     private Socket socket;
     private ChatClient client;
-    private ChatEncryption encryption=new ChatEncryption();
+   private ChatEncryption encryption=new ChatEncryption();
 
     public WriteThread(Socket socket,ChatClient client){
         this.socket=socket;
